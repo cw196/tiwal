@@ -1,0 +1,1598 @@
+10-02-2015 @ 05:15:47 - Generating payment form for order 67. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-02-2015 @ 05:16:37 - Checking IPN response is valid
+10-02-2015 @ 05:16:38 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 2.00
+            [invoice] => WC-67
+            [protection_eligibility] => Eligible
+            [address_status] => unconfirmed
+            [item_number1] => 67
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => CKQ645RUM8GEQ
+            [address_street] => 5 Orbit Dr Rosedale
+            [payment_date] => 22:16:14 Oct 01, 2015 PDT
+            [payment_status] => Pending
+            [charset] => windows-1252
+            [address_zip] => 0632
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => congce
+            [address_country_code] => NZ
+            [address_name] => c w
+            [notify_version] => 3.8
+            [custom] => {"order_id":67,"order_key":"wc_order_560e130304554"}
+            [payer_status] => verified
+            [business] => yestalent123@gmail.com
+            [address_country] => New Zealand
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [address_city] => Auckland
+            [verify_sign] => ANjcFFL6thfg3pfU8XyZ4HGhsY0wANhZvIHzqiG.SXpNWuCbSmSAHd23
+            [payer_email] => congcew@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 30445214J7339771D
+            [payment_type] => instant
+            [last_name] => wang
+            [address_state] => Auckland
+            [item_name1] =>  x 2
+            [receiver_email] => yestalent123@gmail.com
+            [item_name2] => Shipping via
+            [quantity1] => 1
+            [quantity2] => 1
+            [receiver_id] => 5EDATCMB7SKZA
+            [pending_reason] => multi_currency
+            [txn_type] => cart
+            [mc_gross_1] => 2.00
+            [mc_currency] => NZD
+            [mc_gross_2] => 0.00
+            [residence_country] => US
+            [test_ipn] => 1
+            [transaction_subject] => {"order_id":67,"order_key":"wc_order_560e130304554"}
+            [payment_gross] => 
+            [ipn_track_id] => 258d301685ee0
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.7
+)
+
+10-02-2015 @ 05:16:38 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Fri, 02 Oct 2015 05:16:37 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=Q04AzIx_yaSpB3GchwXlROBeDri-E8dnj0xGsIq4uxGuPvUWN3z-z5yLTlfFstZMvn-dq_-APlJCOYHcErGOCAmYLUwv0gYCD8kUsqc75yW3JcfbrTGtVhCum9ZPdz7xkptJ7jDx2mZxQA7D1R025FajaQVODN2Um2z9P1W2Pj3-keMsvaS4e1_Oz2FObdp-aG-rVMeh04EIXRya4CqlJ2EmtFhuMMEwhfKZnineUISOxn2I3T2LIx8FWe6JPb1hmAZBvLVHSWKch2TLRy7wrTkqXA8AR1rnYvWsJVCCkq-yLWy1XnUty4jCH1TYz8gRP0-A_aOzm3c1vmgv4E-OojQXRBNioNCn3aIG20NaATSTxvW-beBsY5p_viIyIX9v6wWdt_HWtGuFkdFiYKDaj8mfZKaCreF8qUi9r_5KbhHwdD1BTtioFp5Z7C8; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Mon, 29-Sep-2025 05:16:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Sun, 01-Oct-2017 05:16:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.108.11.1443762997777254; path=/; expires=Sun, 24-Sep-45 05:16:37 GMT
+                    [5] => X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D890441302; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [7] => Apache=10.72.128.11.1443762997756092; path=/; expires=Sun, 24-Sep-45 05:16:37 GMT
+                )
+
+            [vary] => Accept-Encoding,User-Agent
+            [connection] => close
+            [paypal-debug-id] => 917aab6db8b04
+            [strict-transport-security] => max-age=14400
+            [transfer-encoding] => chunked
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => Q04AzIx_yaSpB3GchwXlROBeDri-E8dnj0xGsIq4uxGuPvUWN3z-z5yLTlfFstZMvn-dq_-APlJCOYHcErGOCAmYLUwv0gYCD8kUsqc75yW3JcfbrTGtVhCum9ZPdz7xkptJ7jDx2mZxQA7D1R025FajaQVODN2Um2z9P1W2Pj3-keMsvaS4e1_Oz2FObdp-aG-rVMeh04EIXRya4CqlJ2EmtFhuMMEwhfKZnineUISOxn2I3T2LIx8FWe6JPb1hmAZBvLVHSWKch2TLRy7wrTkqXA8AR1rnYvWsJVCCkq-yLWy1XnUty4jCH1TYz8gRP0-A_aOzm3c1vmgv4E-OojQXRBNioNCn3aIG20NaATSTxvW-beBsY5p_viIyIX9v6wWdt_HWtGuFkdFiYKDaj8mfZKaCreF8qUi9r_5KbhHwdD1BTtioFp5Z7C8
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1759122998
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1506834998
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.108.11.1443762997777254
+                    [expires] => 2389842997
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=SANDBOX3.WEB.1&silo_version=880&app=appdispatcher&TIME=890441302
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.128.11.1443762997756092
+                    [expires] => 2389842997
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+10-02-2015 @ 05:16:38 - Received valid response from PayPal
+10-02-2015 @ 05:16:38 - Found order #67
+10-02-2015 @ 05:16:38 - Payment status: completed
+10-02-2015 @ 05:17:42 - Checking IPN response is valid
+10-02-2015 @ 05:17:43 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 2.00
+            [invoice] => WC-67
+            [protection_eligibility] => Eligible
+            [address_status] => unconfirmed
+            [item_number1] => 67
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => CKQ645RUM8GEQ
+            [address_street] => 5 Orbit Dr Rosedale
+            [payment_date] => 22:16:14 Oct 01, 2015 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [address_zip] => 0632
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => congce
+            [mc_fee] => 0.51
+            [address_country_code] => NZ
+            [address_name] => c w
+            [notify_version] => 3.8
+            [custom] => {"order_id":67,"order_key":"wc_order_560e130304554"}
+            [payer_status] => verified
+            [address_country] => New Zealand
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [address_city] => Auckland
+            [verify_sign] => A0asK6oiIZmtBFrRCq-Iiqf8lrk.A6MnvB.VTYForNFcoihAR.YlI2kK
+            [payer_email] => congcew@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 30445214J7339771D
+            [payment_type] => instant
+            [last_name] => wang
+            [address_state] => Auckland
+            [item_name1] =>  x 2
+            [receiver_email] => yestalent123@gmail.com
+            [item_name2] => Shipping via
+            [payment_fee] => 
+            [quantity1] => 1
+            [quantity2] => 1
+            [receiver_id] => 5EDATCMB7SKZA
+            [txn_type] => cart
+            [mc_gross_1] => 2.00
+            [mc_currency] => NZD
+            [mc_gross_2] => 0.00
+            [residence_country] => US
+            [test_ipn] => 1
+            [transaction_subject] => {"order_id":67,"order_key":"wc_order_560e130304554"}
+            [payment_gross] => 
+            [ipn_track_id] => dfe925eda4c76
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.7
+)
+
+10-02-2015 @ 05:17:43 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Fri, 02 Oct 2015 05:17:42 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=6amSkifk1dggm8AlfwiCIMQRK0RjIM0My4GbtebUhIySKV3y-nL0HGmFOXxCTI5S5ic_21BdISpSqt3a4OSQmpdD5d0qTPlOcttWTQy6wpQBtya50YWhGjVo9-21M-crMmHiLvuYzuKONU5--K8_Ug9mAoPhDtiwdZI9rc0TB_97Nu9zyD38Pwu_sVMPgzG5e1oGtXXMNxfluyV4CYHeE9OQ5iiwKs9SzNdhORvA2E5aofBuZQYspDbhgKb63BPyGfgiv9VsUZKdfu0mo-nkYOpLYLZS8RvnjASrPteDYrdDlfXO6l38qPpyNPg-XullLt3Ga9nWujS3yW1Kf22oBp2D7NWk3DjNyXDQh12XcaVko1vbulUSxOn0AdfGUulX-k4QBa2VwSHOhsKkSPIIsy6Y4iZfSaXnHYBgIH27LPeKwcVFgYUPIbRa-E0; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Mon, 29-Sep-2025 05:17:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Sun, 01-Oct-2017 05:17:43 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.108.11.1443763062729123; path=/; expires=Sun, 24-Sep-45 05:17:42 GMT
+                    [5] => X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1980960342; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [7] => Apache=10.72.128.11.1443763062709106; path=/; expires=Sun, 24-Sep-45 05:17:42 GMT
+                )
+
+            [vary] => Accept-Encoding,User-Agent
+            [connection] => close
+            [paypal-debug-id] => 704cea71ad332
+            [strict-transport-security] => max-age=14400
+            [transfer-encoding] => chunked
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => 6amSkifk1dggm8AlfwiCIMQRK0RjIM0My4GbtebUhIySKV3y-nL0HGmFOXxCTI5S5ic_21BdISpSqt3a4OSQmpdD5d0qTPlOcttWTQy6wpQBtya50YWhGjVo9-21M-crMmHiLvuYzuKONU5--K8_Ug9mAoPhDtiwdZI9rc0TB_97Nu9zyD38Pwu_sVMPgzG5e1oGtXXMNxfluyV4CYHeE9OQ5iiwKs9SzNdhORvA2E5aofBuZQYspDbhgKb63BPyGfgiv9VsUZKdfu0mo-nkYOpLYLZS8RvnjASrPteDYrdDlfXO6l38qPpyNPg-XullLt3Ga9nWujS3yW1Kf22oBp2D7NWk3DjNyXDQh12XcaVko1vbulUSxOn0AdfGUulX-k4QBa2VwSHOhsKkSPIIsy6Y4iZfSaXnHYBgIH27LPeKwcVFgYUPIbRa-E0
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1759123063
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1506835063
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.108.11.1443763062729123
+                    [expires] => 2389843062
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=SANDBOX3.WEB.1&silo_version=880&app=appdispatcher&TIME=1980960342
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.128.11.1443763062709106
+                    [expires] => 2389843062
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+10-02-2015 @ 05:17:43 - Received valid response from PayPal
+10-02-2015 @ 05:17:43 - Found order #67
+10-02-2015 @ 05:17:43 - Payment status: completed
+10-05-2015 @ 22:33:33 - Generating payment form for order 140. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-05-2015 @ 22:51:53 - Generating payment form for order 140. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-05-2015 @ 23:39:51 - Generating payment form for order 141. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-05-2015 @ 23:41:30 - Checking IPN response is valid
+10-05-2015 @ 23:41:31 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 190.00
+            [invoice] => WC-141
+            [protection_eligibility] => Ineligible
+            [address_status] => unconfirmed
+            [item_number1] => 141
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => R2M938NKFBJFY
+            [address_street] => 5 Orbit Dr Rosedale
+            [payment_date] => 16:40:40 Oct 05, 2015 PDT
+            [payment_status] => Pending
+            [charset] => windows-1252
+            [address_zip] => 0632
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => congce
+            [address_country_code] => NZ
+            [address_name] => Congce Wang
+            [notify_version] => 3.8
+            [custom] => {"order_id":141,"order_key":"wc_order_56130a478d8ac"}
+            [payer_status] => verified
+            [address_country] => New Zealand
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [address_city] => Auckland
+            [verify_sign] => AFcWxV21C7fd0v3bYYYRCpSSRl31Aykq6aMH49bTQ5I9oTmXkKgnI.Sx
+            [payer_email] => tiwal_buyer@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 59K430605U1691442
+            [payment_type] => instant
+            [last_name] => wang
+            [address_state] => Auckland
+            [item_name1] => Boat cover x 1
+            [receiver_email] => tiwal-business@gmail.com
+            [item_name2] => Shipping via
+            [quantity1] => 1
+            [quantity2] => 1
+            [pending_reason] => unilateral
+            [txn_type] => cart
+            [mc_gross_1] => 190.00
+            [mc_currency] => NZD
+            [mc_gross_2] => 0.00
+            [residence_country] => NZ
+            [test_ipn] => 1
+            [transaction_subject] => {"order_id":141,"order_key":"wc_order_56130a478d8ac"}
+            [payment_gross] => 
+            [ipn_track_id] => a0f2e3ef978b8
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.7
+)
+
+10-05-2015 @ 23:41:31 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Mon, 05 Oct 2015 23:41:30 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=tD7D0lkbXJ1XB5Yw30yFXtJafl5VLWX0vasG62xJR_LM51wS9g3coNMIKAJ1ca2Gphk_VYLI9S9PR7d-R61e1Mqrq5k1pQ3fcwiyw2NnMQU4fa8Vqwl6KWgQx7RhhVWqZlJ2zEtKJbJnFDEUj832mDLbDbzphRGV04-LZRkG1bS73vJ0VPjuO3y7N9pgxEIJsY4iBR95d0VplzO2M5JyI5cR0gQY2TgtUkS1sYsbhluumM0T8JKpdV6ZG1PEL2dI6I5DZwMwUDOs__DS1IgbPCmuKgIJ4dUO0Jj6ZE1WI9Sa9s5EDrKFOPH-oZ8jgAHCHNWss-65siVdaPuTFDGhDoLeHSCR6AotntRhOnsCYbDEYwK7OuI3R2xp2ANQSXYRI-P58NADaYSRRFOwqYHvn1yHM-DNlUh0ZnUfBkfbiLd6qjOt9sOXjeWxVyS; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Thu, 02-Oct-2025 23:41:31 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Wed, 04-Oct-2017 23:41:31 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.108.11.1444088490967284; path=/; expires=Wed, 27-Sep-45 23:41:30 GMT
+                    [5] => X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2852787030; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [7] => Apache=10.72.128.11.1444088490947397; path=/; expires=Wed, 27-Sep-45 23:41:30 GMT
+                )
+
+            [vary] => Accept-Encoding,User-Agent
+            [connection] => close
+            [paypal-debug-id] => a662aef4e760e
+            [strict-transport-security] => max-age=14400
+            [transfer-encoding] => chunked
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => tD7D0lkbXJ1XB5Yw30yFXtJafl5VLWX0vasG62xJR_LM51wS9g3coNMIKAJ1ca2Gphk_VYLI9S9PR7d-R61e1Mqrq5k1pQ3fcwiyw2NnMQU4fa8Vqwl6KWgQx7RhhVWqZlJ2zEtKJbJnFDEUj832mDLbDbzphRGV04-LZRkG1bS73vJ0VPjuO3y7N9pgxEIJsY4iBR95d0VplzO2M5JyI5cR0gQY2TgtUkS1sYsbhluumM0T8JKpdV6ZG1PEL2dI6I5DZwMwUDOs__DS1IgbPCmuKgIJ4dUO0Jj6ZE1WI9Sa9s5EDrKFOPH-oZ8jgAHCHNWss-65siVdaPuTFDGhDoLeHSCR6AotntRhOnsCYbDEYwK7OuI3R2xp2ANQSXYRI-P58NADaYSRRFOwqYHvn1yHM-DNlUh0ZnUfBkfbiLd6qjOt9sOXjeWxVyS
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1759448491
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1507160491
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.108.11.1444088490967284
+                    [expires] => 2390168490
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=SANDBOX3.WEB.1&silo_version=880&app=appdispatcher&TIME=2852787030
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.128.11.1444088490947397
+                    [expires] => 2390168490
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+10-05-2015 @ 23:41:31 - Received valid response from PayPal
+10-05-2015 @ 23:41:31 - Found order #141
+10-05-2015 @ 23:41:31 - Payment status: completed
+10-06-2015 @ 02:44:31 - Generating payment form for order 143. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-13-2015 @ 05:54:23 - Generating payment form for order 146. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-13-2015 @ 05:55:30 - Checking IPN response is valid
+10-13-2015 @ 05:55:31 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 580.00
+            [invoice] => WC-146
+            [protection_eligibility] => Ineligible
+            [address_status] => unconfirmed
+            [item_number1] => 146
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => R2M938NKFBJFY
+            [address_street] => 5 Orbit Dr Rosedale
+            [payment_date] => 22:54:46 Oct 12, 2015 PDT
+            [payment_status] => Pending
+            [charset] => windows-1252
+            [address_zip] => 0632
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => congce
+            [address_country_code] => NZ
+            [address_name] => c w
+            [notify_version] => 3.8
+            [custom] => {"order_id":146,"order_key":"wc_order_561c9c8f4139f"}
+            [payer_status] => verified
+            [address_country] => New Zealand
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [address_city] => Auckland
+            [verify_sign] => AMA-XRFWCsglr5DA--cCeSe601sMACrzEAGAtFa8y.2nB7dIXlU.niJH
+            [payer_email] => tiwal_buyer@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 92L768513F456580G
+            [payment_type] => instant
+            [last_name] => wang
+            [address_state] => Auckland
+            [item_name1] => Beach dolly (disassembled) x 1, Boat cover x 1
+            [receiver_email] => yestalent123@gmail.com
+            [item_name2] => Shipping via
+            [quantity1] => 1
+            [quantity2] => 1
+            [pending_reason] => unilateral
+            [txn_type] => cart
+            [mc_gross_1] => 580.00
+            [mc_currency] => NZD
+            [mc_gross_2] => 0.00
+            [residence_country] => NZ
+            [test_ipn] => 1
+            [transaction_subject] => {"order_id":146,"order_key":"wc_order_561c9c8f4139f"}
+            [payment_gross] => 
+            [ipn_track_id] => 2aee1cd699f04
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.7
+)
+
+10-13-2015 @ 05:55:31 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Tue, 13 Oct 2015 05:55:30 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=PfvHD4ep4teFZB7yI_iUN9oYS7ooelT8olj4JnTc3zSTzENiHqbDSxTkW_4U2V9soZtqg3bN3opZhgraiQllP2F9sYIwSCz_cPOfeyOYZ-B4QjgX7FCKvBBrf0D6OTYYvzQgoThA3hQs8CfpooupgfmwLjySYpJcZo1h_9BAXXkUFT6z3rDhFDmdSvEEe1TbvX43bIFm2LtwG4jtxVpK4Y4qrQRy4E7zZd0d0qhEAKpQwMNUdbH-ISP-KRlJbLEckc1SMpBoo6kQiWxOeV_UD_uOzsLi0FnVufEM7lw4FzbSVGjks8eRPfpZ56VutX75xq8MhxlVX9fHAGsKaGoJXNFE-J-bftxE8G8GUwVbgn5ibZ9K2ZSPzvHyXYa-PNvqkkyCkEQrkJnej5z0mid-diNGgaQQQI4b7Q-ycrdyxUusDfOWyC75RJ3ot2S; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Fri, 10-Oct-2025 05:55:31 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Thu, 12-Oct-2017 05:55:31 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.108.11.1444715731052741; path=/; expires=Thu, 05-Oct-45 05:55:31 GMT
+                    [5] => X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3550223446; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [7] => Apache=10.72.128.11.1444715731019205; path=/; expires=Thu, 05-Oct-45 05:55:30 GMT
+                )
+
+            [vary] => Accept-Encoding,User-Agent
+            [connection] => close
+            [paypal-debug-id] => cc20d9b34c35
+            [strict-transport-security] => max-age=14400
+            [transfer-encoding] => chunked
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => PfvHD4ep4teFZB7yI_iUN9oYS7ooelT8olj4JnTc3zSTzENiHqbDSxTkW_4U2V9soZtqg3bN3opZhgraiQllP2F9sYIwSCz_cPOfeyOYZ-B4QjgX7FCKvBBrf0D6OTYYvzQgoThA3hQs8CfpooupgfmwLjySYpJcZo1h_9BAXXkUFT6z3rDhFDmdSvEEe1TbvX43bIFm2LtwG4jtxVpK4Y4qrQRy4E7zZd0d0qhEAKpQwMNUdbH-ISP-KRlJbLEckc1SMpBoo6kQiWxOeV_UD_uOzsLi0FnVufEM7lw4FzbSVGjks8eRPfpZ56VutX75xq8MhxlVX9fHAGsKaGoJXNFE-J-bftxE8G8GUwVbgn5ibZ9K2ZSPzvHyXYa-PNvqkkyCkEQrkJnej5z0mid-diNGgaQQQI4b7Q-ycrdyxUusDfOWyC75RJ3ot2S
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1760075731
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1507787731
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.108.11.1444715731052741
+                    [expires] => 2390795731
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=SANDBOX3.WEB.1&silo_version=880&app=appdispatcher&TIME=3550223446
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.128.11.1444715731019205
+                    [expires] => 2390795730
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+10-13-2015 @ 05:55:31 - Received valid response from PayPal
+10-13-2015 @ 05:55:31 - Found order #146
+10-13-2015 @ 05:55:31 - Payment status: completed
+10-13-2015 @ 05:58:50 - Generating payment form for order 147. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-13-2015 @ 05:59:22 - Checking IPN response is valid
+10-13-2015 @ 05:59:23 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 94.00
+            [invoice] => WC-147
+            [protection_eligibility] => Eligible
+            [address_status] => unconfirmed
+            [item_number1] => 147
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => R2M938NKFBJFY
+            [address_street] => 5 Orbit Dr Rosedale
+            [payment_date] => 22:59:15 Oct 12, 2015 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [address_zip] => 0632
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => congce
+            [mc_fee] => 3.65
+            [address_country_code] => NZ
+            [address_name] => c w
+            [notify_version] => 3.8
+            [custom] => {"order_id":147,"order_key":"wc_order_561c9d9a0bfb1"}
+            [payer_status] => verified
+            [business] => tiwal_business@gmail.com
+            [address_country] => New Zealand
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [address_city] => Auckland
+            [verify_sign] => AECeNo9MR8fgRUmQXS6rNlDz1ZPaAjvg.bkMMS9CID84.8fez24-dtOv
+            [payer_email] => tiwal_buyer@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 0EF78660P9399874M
+            [payment_type] => instant
+            [last_name] => wang
+            [address_state] => Auckland
+            [item_name1] => Block & clamcleat Set x 1
+            [receiver_email] => tiwal_business@gmail.com
+            [item_name2] => Shipping via
+            [payment_fee] => 
+            [quantity1] => 1
+            [quantity2] => 1
+            [receiver_id] => RTHN8CRLG6M9J
+            [txn_type] => cart
+            [mc_gross_1] => 94.00
+            [mc_currency] => NZD
+            [mc_gross_2] => 0.00
+            [residence_country] => NZ
+            [test_ipn] => 1
+            [transaction_subject] => {"order_id":147,"order_key":"wc_order_561c9d9a0bfb1"}
+            [payment_gross] => 
+            [ipn_track_id] => f57bdff12d51f
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.7
+)
+
+10-13-2015 @ 05:59:23 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Tue, 13 Oct 2015 05:59:23 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=BslZzt88f5JD9uw1Su5D7b3kj89-q_Ywi74GuBnx4V9E7X8Vv5fGMOFXfuNubVAEuz8-nZnXlg4P8BE5kePO3izhaRI9wiD_WeVk38EFonRnx5jMrTGhrdvO_-qDQVjluutjLLDXTFd0XBjk6s3ugp0PRq6G7fiQxbEhaN4eieR9Pk7uLfoEL_wjcu0JTUzfo4DEArh340p61JTdfupJfUDWdHdZ58cMja6j5cAlptSRnsSv7O2N1b65eMX06MehmYU_Lnk9-HC0tMWHUDS1MseTLVwbXeiHsFnrhpp5-uRMGvDbzGhep1B1KzfP5RF-FwU1MTLAgcV6OBxPLIcBazotJ2OQx6L9BQYDYQQlzUBXWw_cIN5b2DFmAyaOMqvoeoAmcmHcXL-ubU28QazCEDoNEW8v9_EwWO99qdssFU_iK7mFFUK-WekdHVa; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Fri, 10-Oct-2025 05:59:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Thu, 12-Oct-2017 05:59:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.108.11.1444715963091171; path=/; expires=Thu, 05-Oct-45 05:59:23 GMT
+                    [5] => X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3147635798; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [7] => Apache=10.72.128.11.1444715963075720; path=/; expires=Thu, 05-Oct-45 05:59:23 GMT
+                )
+
+            [vary] => Accept-Encoding,User-Agent
+            [connection] => close
+            [paypal-debug-id] => 9bddc4fa128db
+            [strict-transport-security] => max-age=14400
+            [transfer-encoding] => chunked
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => BslZzt88f5JD9uw1Su5D7b3kj89-q_Ywi74GuBnx4V9E7X8Vv5fGMOFXfuNubVAEuz8-nZnXlg4P8BE5kePO3izhaRI9wiD_WeVk38EFonRnx5jMrTGhrdvO_-qDQVjluutjLLDXTFd0XBjk6s3ugp0PRq6G7fiQxbEhaN4eieR9Pk7uLfoEL_wjcu0JTUzfo4DEArh340p61JTdfupJfUDWdHdZ58cMja6j5cAlptSRnsSv7O2N1b65eMX06MehmYU_Lnk9-HC0tMWHUDS1MseTLVwbXeiHsFnrhpp5-uRMGvDbzGhep1B1KzfP5RF-FwU1MTLAgcV6OBxPLIcBazotJ2OQx6L9BQYDYQQlzUBXWw_cIN5b2DFmAyaOMqvoeoAmcmHcXL-ubU28QazCEDoNEW8v9_EwWO99qdssFU_iK7mFFUK-WekdHVa
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1760075963
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1507787963
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.108.11.1444715963091171
+                    [expires] => 2390795963
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=SANDBOX3.WEB.1&silo_version=880&app=appdispatcher&TIME=3147635798
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.sandbox.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.128.11.1444715963075720
+                    [expires] => 2390795963
+                    [path] => /
+                    [domain] => www.sandbox.paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+10-13-2015 @ 05:59:23 - Received valid response from PayPal
+10-13-2015 @ 05:59:23 - Found order #147
+10-13-2015 @ 05:59:23 - Payment status: completed
+10-13-2015 @ 05:59:23 - IPN Response is for another account: tiwal_business@gmail.com. Your email is yestalent123@gmail.com
+10-14-2015 @ 01:37:55 - Generating payment form for order 148. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-14-2015 @ 02:05:36 - Generating payment form for order 149. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-14-2015 @ 03:21:55 - Generating payment form for order 152. Notify URL: http://tiwal.online/wc-api/WC_Gateway_Paypal/
+10-14-2015 @ 03:22:37 - Checking IPN response is valid
+10-14-2015 @ 03:22:39 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 1.00
+            [invoice] => WC-152
+            [protection_eligibility] => Eligible
+            [address_status] => unconfirmed
+            [item_number1] => 152
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => 76LJQ4VQHYKDJ
+            [address_street] => 22 glanville terrace
+            [payment_date] => 20:22:25 Oct 13, 2015 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [address_zip] => 1052
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => David
+            [mc_fee] => 0.48
+            [address_country_code] => NZ
+            [address_name] => david wei
+            [notify_version] => 3.8
+            [custom] => {"order_id":152,"order_key":"wc_order_561dca52f3a74"}
+            [payer_status] => unverified
+            [business] => tiwallimited@gmail.com
+            [address_country] => New Zealand
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [address_city] => Auckland
+            [verify_sign] => AmBVaGO8Nbo0ahpCt6hVagq1TIyjAgIxXY1DMui6S3nOSzQWI9.Kmxsu
+            [payer_email] => weizhenwei11@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 7FT579895M388294U
+            [payment_type] => instant
+            [last_name] => Wei
+            [address_state] => Auckland
+            [item_name1] => Delivery x 1
+            [receiver_email] => tiwallimited@gmail.com
+            [item_name2] => Shipping via
+            [payment_fee] => 
+            [quantity1] => 1
+            [quantity2] => 1
+            [receiver_id] => 6FXMU5ZQYQ6BW
+            [txn_type] => cart
+            [mc_gross_1] => 1.00
+            [mc_currency] => NZD
+            [mc_gross_2] => 0.00
+            [residence_country] => NZ
+            [transaction_subject] => {"order_id":152,"order_key":"wc_order_561dca52f3a74"}
+            [payment_gross] => 
+            [ipn_track_id] => 5925072a34b0e
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.7
+)
+
+10-14-2015 @ 03:22:39 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [paypal-debug-id] => 45f2f1623d8
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [content-type] => text/html; charset=UTF-8
+            [dc] => dcg12-origin-www-1.paypal.com
+            [date] => Wed, 14 Oct 2015 03:22:39 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=uCBt8EQCPtbEg-mqhHCBNM7nxRD9yUzD6XHrZDFw3YclxjL7cDUZedkkle6HYrg8xyRke3e_ZApCvDVi1lJSn3ACOSksf74HzDRAaZ-Q1ajQjQKs7X_Poappz_oqzb7FDpmVZd0vgzh5UJBFdDpLkijHFscuLj8rKA5TyPsgF3CllRCR00vsWD7d6Gr3mcxtR9WDBQD7Mdxzqr58yjGXIOYjNvOM39f5Yy-FQL41vJ_JpXGzE_f3b67JfrRluImMTmkd-A7Xf0i9CSRqzt4zGUA7vfVhZDuP6Rl1lSutmidSVALcsDUJapg3nAr_bV2OjozzEm-iJQz4k1Ijzn-A6hMfqBozMkMB5H1dFylrz5bs7pmRsi-MDJ3-1FU4UE6n6gp2Bl8NjuQWH-7uIzG4ZUECkVYvsDw8Vw9GnXqvBZzGBWD_wmPv0CSRdoa; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 11-Oct-2025 03:22:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Fri, 13-Oct-2017 03:22:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.17.1.16.1444792959409482; path=/; expires=Fri, 06-Oct-45 03:22:39 GMT
+                    [5] => X-PP-SILOVER=name%3DLIVE11.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2143952214; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [7] => Apache=10.17.1.10.1444792959402132; path=/; expires=Fri, 06-Oct-45 03:22:39 GMT
+                    [8] => AKDC=dcg12-origin-www-1.paypal.com; expires=Wed, 14-Oct-2015 03:52:39 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => uCBt8EQCPtbEg-mqhHCBNM7nxRD9yUzD6XHrZDFw3YclxjL7cDUZedkkle6HYrg8xyRke3e_ZApCvDVi1lJSn3ACOSksf74HzDRAaZ-Q1ajQjQKs7X_Poappz_oqzb7FDpmVZd0vgzh5UJBFdDpLkijHFscuLj8rKA5TyPsgF3CllRCR00vsWD7d6Gr3mcxtR9WDBQD7Mdxzqr58yjGXIOYjNvOM39f5Yy-FQL41vJ_JpXGzE_f3b67JfrRluImMTmkd-A7Xf0i9CSRqzt4zGUA7vfVhZDuP6Rl1lSutmidSVALcsDUJapg3nAr_bV2OjozzEm-iJQz4k1Ijzn-A6hMfqBozMkMB5H1dFylrz5bs7pmRsi-MDJ3-1FU4UE6n6gp2Bl8NjuQWH-7uIzG4ZUECkVYvsDw8Vw9GnXqvBZzGBWD_wmPv0CSRdoa
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1760152959
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1507864959
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.17.1.16.1444792959409482
+                    [expires] => 2390872959
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE11.WEB.1&silo_version=880&app=appdispatcher&TIME=2143952214
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.17.1.10.1444792959402132
+                    [expires] => 2390872959
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [8] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => dcg12-origin-www-1.paypal.com
+                    [expires] => 1444794759
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+10-14-2015 @ 03:22:39 - Received valid response from PayPal
+10-14-2015 @ 03:22:39 - Found order #152
+10-14-2015 @ 03:22:39 - Payment status: completed
+10-14-2015 @ 03:27:00 - Checking IPN response is valid
+10-14-2015 @ 03:27:03 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => -1.00
+            [invoice] => WC-152
+            [protection_eligibility] => Eligible
+            [item_number1] => 
+            [item_number2] => 152
+            [payer_id] => 76LJQ4VQHYKDJ
+            [address_street] => 22 glanville terrace
+            [payment_date] => 20:26:47 Oct 13, 2015 PDT
+            [payment_status] => Refunded
+            [charset] => windows-1252
+            [address_zip] => 1052
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => David
+            [mc_fee] => -0.48
+            [address_country_code] => NZ
+            [address_name] => david wei
+            [notify_version] => 3.8
+            [reason_code] => refund
+            [custom] => {"order_id":152,"order_key":"wc_order_561dca52f3a74"}
+            [business] => tiwallimited@gmail.com
+            [address_country] => New Zealand
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [address_city] => Auckland
+            [verify_sign] => AoHFC-9zjdPh36HLvoHhi5X3ybNkAxLqr-wKk4ioU0L-2sRfNDEHoob7
+            [payer_email] => weizhenwei11@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [parent_txn_id] => 7FT579895M388294U
+            [txn_id] => 5RJ955281H2445616
+            [payment_type] => instant
+            [last_name] => Wei
+            [address_state] => Auckland
+            [item_name1] => Shipping via 
+            [receiver_email] => tiwallimited@gmail.com
+            [item_name2] => Delivery x 1
+            [payment_fee] => 
+            [quantity1] => 1
+            [quantity2] => 1
+            [receiver_id] => 6FXMU5ZQYQ6BW
+            [mc_gross_1] => 0.00
+            [mc_currency] => NZD
+            [mc_gross_2] => 1.00
+            [residence_country] => NZ
+            [transaction_subject] => {"order_id":152,"order_key":"wc_order_561dca52f3a74"}
+            [payment_gross] => 
+            [ipn_track_id] => e83b4cc252974
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.7
+)
+
+10-14-2015 @ 03:27:03 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [paypal-debug-id] => 624c9b281ceb8
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [content-type] => text/html; charset=UTF-8
+            [dc] => dcg12-origin-www-1.paypal.com
+            [date] => Wed, 14 Oct 2015 03:27:03 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=BKW3BuV2asK8h_A4HDz2NAvjoCB2RbFmAuqGNMrg-juV_zpaXx-SCuSSuK3lqErl-UGPIDkK5Z-kz_xTeiuQWe2rqcaWcMQXF4ZO2cQCI6JXwF6NrlpFK29JVo4-rAbeMyol4Z9PUt7NiQaSPiRa3WKm5_uYR48sCJS2tKAls76JK_HxmcWhA3Pijj1e2Of2Jx0j851YSr0aCWir-QWvxzhDHZa0Qvl2fLv3JKIehi8Vf4Z86wn9I5eAcgD0xoYjM7Yln9hnlk99tC8ZQvMoUQPc7o3_Si07UbvhohpJrf4ysCqJYExK4GHNhLiQJkmtQ6JpHXWI_Hra0ONK-x7uPloLW3yXKMdsX4C-h_nbmeF0uXv4i3684ouMpO_uzmWM0KP27J0BnJrjJnN5Vr9JSOeaksvppxU5_vEcWe54hXME8R2dae4KsIGowJi; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 11-Oct-2025 03:27:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Fri, 13-Oct-2017 03:27:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.17.1.12.1444793223127022; path=/; expires=Fri, 06-Oct-45 03:27:03 GMT
+                    [5] => X-PP-SILOVER=name%3DLIVE11.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2278235478; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [7] => Apache=10.17.0.205.1444793223118024; path=/; expires=Fri, 06-Oct-45 03:27:03 GMT
+                    [8] => AKDC=dcg12-origin-www-1.paypal.com; expires=Wed, 14-Oct-2015 03:57:03 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => BKW3BuV2asK8h_A4HDz2NAvjoCB2RbFmAuqGNMrg-juV_zpaXx-SCuSSuK3lqErl-UGPIDkK5Z-kz_xTeiuQWe2rqcaWcMQXF4ZO2cQCI6JXwF6NrlpFK29JVo4-rAbeMyol4Z9PUt7NiQaSPiRa3WKm5_uYR48sCJS2tKAls76JK_HxmcWhA3Pijj1e2Of2Jx0j851YSr0aCWir-QWvxzhDHZa0Qvl2fLv3JKIehi8Vf4Z86wn9I5eAcgD0xoYjM7Yln9hnlk99tC8ZQvMoUQPc7o3_Si07UbvhohpJrf4ysCqJYExK4GHNhLiQJkmtQ6JpHXWI_Hra0ONK-x7uPloLW3yXKMdsX4C-h_nbmeF0uXv4i3684ouMpO_uzmWM0KP27J0BnJrjJnN5Vr9JSOeaksvppxU5_vEcWe54hXME8R2dae4KsIGowJi
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1760153223
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1507865223
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.17.1.12.1444793223127022
+                    [expires] => 2390873223
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE11.WEB.1&silo_version=880&app=appdispatcher&TIME=2278235478
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.17.0.205.1444793223118024
+                    [expires] => 2390873223
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [8] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => dcg12-origin-www-1.paypal.com
+                    [expires] => 1444795023
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+10-14-2015 @ 03:27:03 - Received valid response from PayPal
+10-14-2015 @ 03:27:03 - Found order #152
+10-14-2015 @ 03:27:03 - Payment status: refunded
+11-13-2015 @ 06:01:47 - Generating payment form for order 182. Notify URL: http://tiwalshop.co.nz/wc-api/WC_Gateway_Paypal/
+11-13-2015 @ 06:02:48 - Checking IPN response is valid
+11-13-2015 @ 06:02:50 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 0.01
+            [invoice] => WC-182
+            [protection_eligibility] => Eligible
+            [address_status] => unconfirmed
+            [item_number1] => 182
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => 3P7RQKWAT7NNY
+            [address_street] => obit 5
+Albany
+            [payment_date] => 22:02:36 Nov 12, 2015 PST
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [address_zip] => 0632
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Congce
+            [mc_fee] => 0.01
+            [address_country_code] => NZ
+            [address_name] => congce wang
+            [notify_version] => 3.8
+            [custom] => {"order_id":182,"order_key":"wc_order_56457ccbb4a4f"}
+            [payer_status] => unverified
+            [business] => tiwallimited@gmail.com
+            [address_country] => New Zealand
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [address_city] => Auckland
+            [verify_sign] => AxR6IsFPkGKeaxGbLYHC3y3Z5EiLAGdx0UyQjs7u3De.XjyGdckOSf0M
+            [payer_email] => 646471375@qq.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 1JN21087657335702
+            [payment_type] => instant
+            [last_name] => Wang
+            [address_state] => Auckland
+            [item_name1] => Delivery x 1
+            [receiver_email] => tiwallimited@gmail.com
+            [item_name2] => Shipping via
+            [payment_fee] => 
+            [quantity1] => 1
+            [quantity2] => 1
+            [receiver_id] => 6FXMU5ZQYQ6BW
+            [txn_type] => cart
+            [mc_gross_1] => 0.01
+            [mc_currency] => NZD
+            [mc_gross_2] => 0.00
+            [residence_country] => NZ
+            [transaction_subject] => {"order_id":182,"order_key":"wc_order_56457ccbb4a4f"}
+            [payment_gross] => 
+            [ipn_track_id] => a9417d2ad33cd
+        )
+
+    [timeout] => 60
+    [httpversion] => 1.1
+    [compress] => 
+    [decompress] => 
+    [user-agent] => WooCommerce/2.4.7
+)
+
+11-13-2015 @ 06:02:50 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [paypal-debug-id] => 20cf04a9a69ec
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [content-type] => text/html; charset=UTF-8
+            [dc] => dcg11-origin-www.paypal.com
+            [date] => Fri, 13 Nov 2015 06:02:50 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=xDOwqpVmU3AbOePLp0TvqChj3Nf4LZB6t5qKb4W9ZeCnCB21Sjj3l-sF8Bj-8x1NCk94NM_LsBbur2Toe2ISZaY5gUkioJGDcz_fGVjJ1XHutzLdWkCPQ4w7rmz9x9XgioBE7Li8ObnuTqdz4JaO4QLxccmvm4XUV9pVEN2ZNF7H6jS66LGSq7DOowHQRiLij7datpTRiW1eevYgHEQbFeTy02sSCKJ8xH8yg_B_rdNpBmaogkOpOq7xUHW8oCybMpBrrkGSicQy0-ZRgqd-zVsNM9Lj3595TXmr9_dA-xYZ1FTl6MWGKtA2ZfHmzW0Tdcj5Ydxd-6TwROyDIeqSL9qjtTuyU4LsT5lR0l25Aqx8ARhGFb7P16h2hLL7srS5O-U67YL4aQZ9LWdDQNrMUhcNnHwKsSMh8GsDxFHwT8oPHgkHshZ6uEmf7Jq; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Mon, 10-Nov-2025 06:02:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Sun, 12-Nov-2017 06:02:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.16.0.147.1447394569689121; path=/; expires=Sun, 05-Nov-45 06:02:49 GMT
+                    [5] => X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D159204694; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                    [7] => Apache=10.16.1.3.1447394569682286; path=/; expires=Sun, 05-Nov-45 06:02:49 GMT
+                    [8] => AKDC=dcg11-origin-www.paypal.com; expires=Fri, 13-Nov-2015 06:32:50 GMT; path=/; secure
+                )
+
+            [strict-transport-security] => max-age=63072000
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => xDOwqpVmU3AbOePLp0TvqChj3Nf4LZB6t5qKb4W9ZeCnCB21Sjj3l-sF8Bj-8x1NCk94NM_LsBbur2Toe2ISZaY5gUkioJGDcz_fGVjJ1XHutzLdWkCPQ4w7rmz9x9XgioBE7Li8ObnuTqdz4JaO4QLxccmvm4XUV9pVEN2ZNF7H6jS66LGSq7DOowHQRiLij7datpTRiW1eevYgHEQbFeTy02sSCKJ8xH8yg_B_rdNpBmaogkOpOq7xUHW8oCybMpBrrkGSicQy0-ZRgqd-zVsNM9Lj3595TXmr9_dA-xYZ1FTl6MWGKtA2ZfHmzW0Tdcj5Ydxd-6TwROyDIeqSL9qjtTuyU4LsT5lR0l25Aqx8ARhGFb7P16h2hLL7srS5O-U67YL4aQZ9LWdDQNrMUhcNnHwKsSMh8GsDxFHwT8oPHgkHshZ6uEmf7Jq
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1762754569
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1510466569
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.16.0.147.1447394569689121
+                    [expires] => 2393474569
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE9.WEB.1&silo_version=880&app=appdispatcher&TIME=159204694
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 
+                    [expires] => 1
+                    [path] => /cgi-bin/
+                    [domain] => www.paypal.com
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.16.1.3.1447394569682286
+                    [expires] => 2393474569
+                    [path] => /
+                    [domain] => www.paypal.com
+                )
+
+            [8] => WP_Http_Cookie Object
+                (
+                    [name] => AKDC
+                    [value] => dcg11-origin-www.paypal.com
+                    [expires] => 1447396370
+                    [path] => /
+                    [domain] => www.paypal.com
+                    [secure] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+11-13-2015 @ 06:02:50 - Received valid response from PayPal
+11-13-2015 @ 06:02:50 - Found order #182
+11-13-2015 @ 06:02:50 - Payment status: completed
